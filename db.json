@@ -1,0 +1,689 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "2",
+      "title": "server",
+      "author": "typicode"
+    },
+    {
+      "id": "3",
+      "title": "json",
+      "author": "typicode"
+    }
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "title": "Javascript 5 news",
+      "subtitle": "What's new in JS in 2024",
+      "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--ohpJlve1--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/drquzbncy/image/upload/v1586605549/javascript_banner_sxve2l.jpg",
+      "views": 2045,
+      "createdAt": "09.04.2024",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "As technology evolves, so does JavaScript. In 2024, JavaScript enthusiasts and developers have exciting new features to explore and integrate into their projects. Let’s delve into some of the cutting-edge additions to the language that promise to enhance productivity and streamline development processes."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "TEXT",
+          "title": "Array Grouping",
+          "paragraphs": [
+            "One of the most awaited features in JavaScript is native array grouping. Traditionally, developers have relied on libraries like lodash to achieve this functionality. However, with the latest JavaScript update, array grouping becomes a built-in feature, eliminating the need for external dependencies."
+          ]
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "title": "Example",
+          "code": "const people = [\n    { name: 'sam', age: 28 },\n    { name: 'alex', age: 28 }\n]\n\nObject.groupBy(people, person => {\n    return person.age\n})\n\nOutput : {\n    '28' : [\n        { name: 'chandra', age: 28 },\n        { name: 'alex', age: 28 }\n    ]\n\n}"
+        },
+        {
+          "id": "4",
+          "type": "IMAGE",
+          "title": "https://caniuse.com/?search=Promise.withResolvers",
+          "src": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*JGkZrZOnmVWOMWRJbQq3Uw.png"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Decorators",
+          "paragraphs": [
+            "Decorators provide a powerful and expressive way to modify and annotate class declarations and members. By wrapping classes, methods, or fields with decorators, developers can abstract common patterns and behaviors, thereby reducing boilerplate and enhancing code readability and maintainability.",
+            "The proposal is mostly finished and now needs feedback from implementations and users to progress further."
+          ]
+        },
+        {
+          "id": "6",
+          "type": "CODE",
+          "title": "The Power of Decorators in Code",
+          "code": "const debounce = (fn, delay) => {\n  let lastTimeout = null\n\n  return (...args) => {\n    clearInterval(lastTimeout)\n\n    lastTimeout = setTimeout(() => fn.call(null, ...args), delay)\n  }\n}\n\nclass SearchForm {\n  @debounce(300)\n  handleUserInput(evt) {\n    console.log(evt.target.value)\n  }\n}"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Conclusion",
+          "paragraphs": [
+            "These enhancements promise to make JavaScript development more intuitive, powerful, and efficient. As these features progress towards finalization, developers should keep an eye on their development and consider how they can be leveraged to improve future projects.",
+            "Feel free to contact me: LinkedIn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Python news",
+      "subtitle": "What's new in JS in 2024",
+      "img": "https://timeweb.com/ru/community/article/3c/3c0cefa6f99fda8d9596da474fc7e264.jpg",
+      "views": 2045,
+      "createdAt": "09.04.2024",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "As technology evolves, so does JavaScript. In 2024, JavaScript enthusiasts and developers have exciting new features to explore and integrate into their projects. Let’s delve into some of the cutting-edge additions to the language that promise to enhance productivity and streamline development processes."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "TEXT",
+          "title": "Array Grouping",
+          "paragraphs": [
+            "One of the most awaited features in JavaScript is native array grouping. Traditionally, developers have relied on libraries like lodash to achieve this functionality. However, with the latest JavaScript update, array grouping becomes a built-in feature, eliminating the need for external dependencies."
+          ]
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "title": "Example",
+          "code": "const people = [\n    { name: 'sam', age: 28 },\n    { name: 'alex', age: 28 }\n]\n\nObject.groupBy(people, person => {\n    return person.age\n})\n\nOutput : {\n    '28' : [\n        { name: 'chandra', age: 28 },\n        { name: 'alex', age: 28 }\n    ]\n\n}"
+        },
+        {
+          "id": "4",
+          "type": "IMAGE",
+          "title": "https://caniuse.com/?search=Promise.withResolvers",
+          "src": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*JGkZrZOnmVWOMWRJbQq3Uw.png"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Decorators",
+          "paragraphs": [
+            "Decorators provide a powerful and expressive way to modify and annotate class declarations and members. By wrapping classes, methods, or fields with decorators, developers can abstract common patterns and behaviors, thereby reducing boilerplate and enhancing code readability and maintainability.",
+            "The proposal is mostly finished and now needs feedback from implementations and users to progress further."
+          ]
+        },
+        {
+          "id": "6",
+          "type": "CODE",
+          "title": "The Power of Decorators in Code",
+          "code": "const debounce = (fn, delay) => {\n  let lastTimeout = null\n\n  return (...args) => {\n    clearInterval(lastTimeout)\n\n    lastTimeout = setTimeout(() => fn.call(null, ...args), delay)\n  }\n}\n\nclass SearchForm {\n  @debounce(300)\n  handleUserInput(evt) {\n    console.log(evt.target.value)\n  }\n}"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Conclusion",
+          "paragraphs": [
+            "These enhancements promise to make JavaScript development more intuitive, powerful, and efficient. As these features progress towards finalization, developers should keep an eye on their development and consider how they can be leveraged to improve future projects.",
+            "Feel free to contact me: LinkedIn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Ruby on rails features",
+      "subtitle": "What's new in JS in 2024",
+      "img": "https://twinslash.com/assets/images/uploads/ruby-on-rails-development.jpg",
+      "views": 2045,
+      "createdAt": "09.04.2024",
+      "userId": "1",
+      "type": [
+        "SCIENCE"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "As technology evolves, so does JavaScript. In 2024, JavaScript enthusiasts and developers have exciting new features to explore and integrate into their projects. Let’s delve into some of the cutting-edge additions to the language that promise to enhance productivity and streamline development processes."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "TEXT",
+          "title": "Array Grouping",
+          "paragraphs": [
+            "One of the most awaited features in JavaScript is native array grouping. Traditionally, developers have relied on libraries like lodash to achieve this functionality. However, with the latest JavaScript update, array grouping becomes a built-in feature, eliminating the need for external dependencies."
+          ]
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "title": "Example",
+          "code": "const people = [\n    { name: 'sam', age: 28 },\n    { name: 'alex', age: 28 }\n]\n\nObject.groupBy(people, person => {\n    return person.age\n})\n\nOutput : {\n    '28' : [\n        { name: 'chandra', age: 28 },\n        { name: 'alex', age: 28 }\n    ]\n\n}"
+        },
+        {
+          "id": "4",
+          "type": "IMAGE",
+          "title": "https://caniuse.com/?search=Promise.withResolvers",
+          "src": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*JGkZrZOnmVWOMWRJbQq3Uw.png"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Decorators",
+          "paragraphs": [
+            "Decorators provide a powerful and expressive way to modify and annotate class declarations and members. By wrapping classes, methods, or fields with decorators, developers can abstract common patterns and behaviors, thereby reducing boilerplate and enhancing code readability and maintainability.",
+            "The proposal is mostly finished and now needs feedback from implementations and users to progress further."
+          ]
+        },
+        {
+          "id": "6",
+          "type": "CODE",
+          "title": "The Power of Decorators in Code",
+          "code": "const debounce = (fn, delay) => {\n  let lastTimeout = null\n\n  return (...args) => {\n    clearInterval(lastTimeout)\n\n    lastTimeout = setTimeout(() => fn.call(null, ...args), delay)\n  }\n}\n\nclass SearchForm {\n  @debounce(300)\n  handleUserInput(evt) {\n    console.log(evt.target.value)\n  }\n}"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Conclusion",
+          "paragraphs": [
+            "These enhancements promise to make JavaScript development more intuitive, powerful, and efficient. As these features progress towards finalization, developers should keep an eye on their development and consider how they can be leveraged to improve future projects.",
+            "Feel free to contact me: LinkedIn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Some news",
+      "subtitle": "What's new in JS in 2024",
+      "img": "https://timeweb.com/ru/community/article/3c/3c0cefa6f99fda8d9596da474fc7e264.jpg",
+      "views": 20435,
+      "createdAt": "09.02.2024",
+      "userId": "1",
+      "type": [
+        "IT",
+        "ECONOMICS"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "As technology evolves, so does JavaScript. In 2024, JavaScript enthusiasts and developers have exciting new features to explore and integrate into their projects. Let’s delve into some of the cutting-edge additions to the language that promise to enhance productivity and streamline development processes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Galaxy features",
+      "subtitle": "What's new in JS in 2024",
+      "img": "https://twinslash.com/assets/images/uploads/ruby-on-rails-development.jpg",
+      "views": 12045,
+      "createdAt": "09.01.2024",
+      "userId": "1",
+      "type": [
+        "POLITICS"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "As technology evolves, so does JavaScript. In 2024, JavaScript enthusiasts and developers have exciting new features to explore and integrate into their projects. Let’s delve into some of the cutting-edge additions to the language that promise to enhance productivity and streamline development processes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Some6 news",
+      "subtitle": "What's new in JS in 2024",
+      "img": "https://timeweb.com/ru/community/article/3c/3c0cefa6f99fda8d9596da474fc7e264.jpg",
+      "views": 4045,
+      "createdAt": "09.04.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "As technology evolves, so does JavaScript. In 2024, JavaScript enthusiasts and developers have exciting new features to explore and integrate into their projects. Let’s delve into some of the cutting-edge additions to the language that promise to enhance productivity and streamline development processes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Galaxy7 features",
+      "subtitle": "What's new in JS in 2024",
+      "img": "https://twinslash.com/assets/images/uploads/ruby-on-rails-development.jpg",
+      "views": 6045,
+      "createdAt": "02.01.2024",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "As technology evolves, so does JavaScript. In 2024, JavaScript enthusiasts and developers have exciting new features to explore and integrate into their projects. Let’s delve into some of the cutting-edge additions to the language that promise to enhance productivity and streamline development processes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Som8e news",
+      "subtitle": "What's new in JS in 2024",
+      "img": "https://timeweb.com/ru/community/article/3c/3c0cefa6f99fda8d9596da474fc7e264.jpg",
+      "views": 23425,
+      "createdAt": "09.04.2024",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "As technology evolves, so does JavaScript. In 2024, JavaScript enthusiasts and developers have exciting new features to explore and integrate into their projects. Let’s delve into some of the cutting-edge additions to the language that promise to enhance productivity and streamline development processes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Galax9y features",
+      "subtitle": "What's new in JS in 2024",
+      "img": "https://twinslash.com/assets/images/uploads/ruby-on-rails-development.jpg",
+      "views": 456,
+      "createdAt": "09.04.2024",
+      "userId": "1",
+      "type": [
+        "IT",
+        "POLITICS"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "As technology evolves, so does JavaScript. In 2024, JavaScript enthusiasts and developers have exciting new features to explore and integrate into their projects. Let’s delve into some of the cutting-edge additions to the language that promise to enhance productivity and streamline development processes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "POLITICS news",
+      "subtitle": "What's new in JS in 2024",
+      "img": "https://media.pbseducation.org/craft.prod/assets/_1200x671_crop_center-center_75/Engaging-Young-People-in-Politics.png",
+      "views": 6783,
+      "createdAt": "09.04.2024",
+      "userId": "1",
+      "type": [
+        "POLITICS"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "As technology evolves, so does JavaScript. In 2024, JavaScript enthusiasts and developers have exciting new features to explore and integrate into their projects. Let’s delve into some of the cutting-edge additions to the language that promise to enhance productivity and streamline development processes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Galax11y SCIENCE",
+      "subtitle": "What's new in JS in 2024",
+      "img": "https://twinslash.com/assets/images/uploads/ruby-on-rails-development.jpg",
+      "views": 345342,
+      "createdAt": "09.04.2024",
+      "userId": "1",
+      "type": [
+        "IT",
+        "SCIENCE"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "As technology evolves, so does JavaScript. In 2024, JavaScript enthusiasts and developers have exciting new features to explore and integrate into their projects. Let’s delve into some of the cutting-edge additions to the language that promise to enhance productivity and streamline development processes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Som12e news",
+      "subtitle": "What's new in JS in 2024",
+      "img": "https://timeweb.com/ru/community/article/3c/3c0cefa6f99fda8d9596da474fc7e264.jpg",
+      "views": 7867,
+      "createdAt": "09.04.2024",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "As technology evolves, so does JavaScript. In 2024, JavaScript enthusiasts and developers have exciting new features to explore and integrate into their projects. Let’s delve into some of the cutting-edge additions to the language that promise to enhance productivity and streamline development processes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "SCIENCE IS TRILLING!!!!",
+      "subtitle": "What's new in JS in 2024",
+      "img": "https://cdn.vox-cdn.com/thumbor/MQU8A_Z_Cfq0UGhxiH82OBi7qWM=/0x502:6280x5212/1200x800/filters:focal(0x502:6280x5212)/cdn.vox-cdn.com/uploads/chorus_image/image/46622634/shutterstock_172355312.0.0.jpg",
+      "views": 7777,
+      "createdAt": "09.04.2024",
+      "userId": "1",
+      "type": [
+        "IT",
+        "SCIENCE"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "As technology evolves, so does JavaScript. In 2024, JavaScript enthusiasts and developers have exciting new features to explore and integrate into their projects. Let’s delve into some of the cutting-edge additions to the language that promise to enhance productivity and streamline development processes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Some14 news",
+      "subtitle": "What's new in JS in 2024",
+      "img": "https://timeweb.com/ru/community/article/3c/3c0cefa6f99fda8d9596da474fc7e264.jpg",
+      "views": 323,
+      "createdAt": "09.04.2024",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "As technology evolves, so does JavaScript. In 2024, JavaScript enthusiasts and developers have exciting new features to explore and integrate into their projects. Let’s delve into some of the cutting-edge additions to the language that promise to enhance productivity and streamline development processes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Galaxy15 features",
+      "subtitle": "What's new in JS in 2024",
+      "img": "https://twinslash.com/assets/images/uploads/ruby-on-rails-development.jpg",
+      "views": 20,
+      "createdAt": "09.04.2024",
+      "userId": "1",
+      "type": [
+        "IT",
+        "SCIENCE"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "As technology evolves, so does JavaScript. In 2024, JavaScript enthusiasts and developers have exciting new features to explore and integrate into their projects. Let’s delve into some of the cutting-edge additions to the language that promise to enhance productivity and streamline development processes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Some16 news",
+      "subtitle": "What's new in JS in 2024",
+      "img": "https://timeweb.com/ru/community/article/3c/3c0cefa6f99fda8d9596da474fc7e264.jpg",
+      "views": 453,
+      "createdAt": "09.04.2024",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "As technology evolves, so does JavaScript. In 2024, JavaScript enthusiasts and developers have exciting new features to explore and integrate into their projects. Let’s delve into some of the cutting-edge additions to the language that promise to enhance productivity and streamline development processes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Galaxy17 ECONOMICS",
+      "subtitle": "What's new in JS in 2024",
+      "img": "https://arts-sciences.buffalo.edu/content/arts-sciences/economics/about/what-is-economics/_jcr_content/par/image.img.680.auto.jpg/1515613194181.jpg",
+      "views": 678880,
+      "createdAt": "21.07.2020",
+      "userId": "1",
+      "type": [
+        "IT",
+        "ECONOMICS"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Introduction",
+          "paragraphs": [
+            "As technology evolves, so does JavaScript. In 2024, JavaScript enthusiasts and developers have exciting new features to explore and integrate into their projects. Let’s delve into some of the cutting-edge additions to the language that promise to enhance productivity and streamline development processes."
+          ]
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "some comment",
+      "articleId": "1",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "text": "some excellent comment",
+      "articleId": "1",
+      "userId": "1"
+    },
+    {
+      "id": "3",
+      "text": "some bad comment",
+      "articleId": "1",
+      "userId": "2"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "123",
+      "id": "nNniytP"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "233435",
+      "id": "8t5vCFQ"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "3 body hahaha",
+      "id": "PKUbtKY"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "irpin",
+      "id": "hpZdbjR"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "how are you guys",
+      "id": "POD0Zgk"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "hello",
+      "id": "62em_KO"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "d",
+      "id": "kfq9D-3"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "  bbbbb",
+      "id": "lCzzkj3"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "sdcsdcsdc",
+      "id": "DPuUPuy"
+    },
+    {
+      "articleId": "2",
+      "userId": "2",
+      "text": "Hello everyone& Latexfauna is greate",
+      "id": "MJLcVLt"
+    },
+    {
+      "articleId": "2",
+      "userId": "2",
+      "text": "Massandra!!!!!",
+      "id": "4lZ0eD6"
+    },
+    {
+      "articleId": "3",
+      "userId": "2",
+      "text": "Yaktak??????",
+      "id": "7cpo5jF"
+    },
+    {
+      "articleId": "3",
+      "userId": "2",
+      "text": "Життя до ранку ....",
+      "id": "VOMyZZd"
+    },
+    {
+      "articleId": "7",
+      "userId": "2",
+      "text": "ascas",
+      "id": "LANFVww"
+    },
+    {
+      "articleId": "16",
+      "userId": "2",
+      "text": "16 tttt",
+      "id": "0IV86l4"
+    },
+    {
+      "articleId": "3",
+      "userId": "2",
+      "text": "m",
+      "id": "tq3ounL"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "password": "123",
+      "username": "admin",
+      "avatar": "https://media.licdn.com/dms/image/D4D03AQHdxl-rZGHKdQ/profile-displayphoto-shrink_800_800/0/1664564414402?e=1718236800&v=beta&t=EnEc6ilJF3_1AmjEnxwGcBGo3rzITChZKHOHBKJzofI",
+      "role": "ADMIN"
+    },
+    {
+      "id": "2",
+      "password": "123",
+      "username": "user",
+      "avatar": "https://hips.hearstapps.com/hmg-prod/images/jess-hong-netflix-2-65fd9b0847eb3.jpg",
+      "role": "USER"
+    }
+  ],
+  "profile": [
+    {
+      "id": "1",
+      "firstname": "Anatolii",
+      "lastname": "Fenin",
+      "age": 25,
+      "currency": "EUR",
+      "country": "Ukraine",
+      "city": "Kharkiv",
+      "username": "admin",
+      "avatar": "https://media.licdn.com/dms/image/D4D03AQHdxl-rZGHKdQ/profile-displayphoto-shrink_800_800/0/1664564414402?e=1718236800&v=beta&t=EnEc6ilJF3_1AmjEnxwGcBGo3rzITChZKHOHBKJzofI"
+    },
+    {
+      "id": "2",
+      "firstname": "Jess",
+      "lastname": "Hong",
+      "age": 29,
+      "currency": "EUR",
+      "country": "Germany ",
+      "city": "Kharkiv",
+      "username": "user",
+      "avatar": "https://m.media-amazon.com/images/M/MV5BOTgzZGI1OGItZGM3Mi00M2IyLWFkMDktNDA1MGU0NGVmM2YxXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg"
+    }
+  ]
+}
